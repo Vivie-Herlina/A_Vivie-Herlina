@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chorus Lyrics</title>
+</head>
+<body>
+
+    <h1>Chorus Lyrics</h1>
+    <div id="chorusLyrics"></div>
+
+    <script>
+        function printChorus() {
+            let lyrics = "";
+            for (let i = 0; i < 6; i++) {
+                lyrics += "Da ba dee da ba daa<br>";
+            }
+            document.getElementById("chorusLyrics").innerHTML = lyrics;
+        }
+
+        printChorus();
+
+    </script>
+</body>
+</html>

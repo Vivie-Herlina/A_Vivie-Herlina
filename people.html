@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Array</title>
+</head>
+<body>
+
+    <h1>People in Uppercase</h1>
+    <div id="uppercasePeople"></div>
+
+    <script>
+       
+        function printUppercasePeople() {
+            const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+            let uppercaseNames = "";
+            for (let i = 0; i < people.length; i++) {
+                uppercaseNames += people[i].toUpperCase() + "<br>";
+            }
+            document.getElementById("uppercasePeople").innerHTML = uppercaseNames;
+        }
+
+        printUppercasePeople();
+
+    </script>
+</body>
+</html>
